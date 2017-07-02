@@ -1,0 +1,7 @@
+group 'com.chariot.shadow'
+version '1.0-SNAPSHOT'
+
+dependencies {
+    compile project(':search-api-domain')
+    compile project(':search-api-repository')
+}

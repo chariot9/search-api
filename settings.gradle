@@ -1,0 +1,7 @@
+rootProject.name = 'search-api'
+include 'search-api-domain'
+include 'search-api-application'
+include 'search-api-json'
+include 'search-api-repository'
+include 'search-api-infrastructure'
+include 'search-api-resource'
