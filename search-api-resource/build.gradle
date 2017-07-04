@@ -5,4 +5,7 @@ dependencies {
     compile project(':search-api-domain')
     compile project(':search-api-application')
     compile project(':search-api-json')
+    compile group: 'javax.cache', name: 'cache-api', version: '1.0.0'
+    compile group: 'org.ehcache', name: 'ehcache', version: '3.1.1'
+    compile group: 'org.springframework', name: 'spring-context-support', version: '4.3.3.RELEASE'
 }
